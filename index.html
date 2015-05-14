@@ -6,62 +6,99 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>"Matthew King's Code School Blog"</title>
+        <title>"Matthew King's Code School Web-log"</title>
 
         <meta name="Matthew King's Web Foundations Journal" content="">
 
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/glossary.css">
        
     </head>
     <body>
-      
-      <div class="container"> <!-- contains everything on the page; used for centering and margins-->
-
-        <header> 
-          <div class="page_heading">
-            <h1>
-              Matthew NK's Code School Blog
-            </h1>     
-          </div>          
-        </header>       
-          <div class="navBar">            
-            <ul>
-              <li><a href="#day1">The Journal Begins</a></li>
-              <li><a href="#day2">Day Two</a></li>
-              <li><a href="#day3">Day Three</a></li>
-              <li><a href="#email">my email</a> | </li>
-              <li><a href="#portfolio">my portfolio</a> | </li>
-              <li><a href="https://github.com/matthewnk" target="_blank">my github</a></li>
-            </ul>              
-          </div>
-          <div class="content">
-            <div class="article"><a id="day1"></a>
-              <header>
-                <h2>Day One</h2>
-                <h3>The first day...</h3>
-              </header>
-              <div class="featureImage">
-                <img <img src="" alt="firstImage">
-              </div>
-              <div class="feature">
-                <p>This site is, obviously, a complete mess. It’s a bit frunstrating because I know what I want to accomplish, but I’m just having a lot of trouble with the CSS. HTML makes sense, and so far, JavaScript is actually quite fun. EVEN GIT is starting to make sense! But CSS just seems like the most ridiculous system imaginable for styling and organizing a page. It feels like trying to do surgery with a pocket knife taped to the end of yard stick. To put it another way, I need to put some extra effort into getting a handle on CSS. To that end I’m going to start by re-watching the Treehouse video.<br></p>
-                <footer>Article footer</footer>
-            </article>
-            <article><a id="day2"></a>
-              <h2>Day Two</h2>
-              <h3>The second day...</h3>
-                <p>Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Balihoo cuil hipmunk elgg tumblr empressr disqus plugg heekya qeyno xobni jajah lijit meebo, oooooc plugg zooomr odeo oovoo loopt dropio mog empressr stypi kazaa kippt babblely. Blippy weebly zillow xobni greplin kno qeyno blippy orkut, kiko edmodo zlio quora kaboodle chumby imvu joost twitter, zanga kiko oovoo woopra mog woopra palantir. Lijit vuvox doostang zinch jaiku ngmoco hipmunk, joyent cuil bebo glogster squidoo quora, ideeli sclipo kippt stypi kno. Hipmunk kaboodle skype yammer oooooc heroku wesabe movity zappos foodzie, vimeo jumo dopplr fleck lala koofers greplin.<br></p> 
-                <footer>Article footer</footer>
-            </div>   
-          </div>
-          <!-- Add your site or application content here -->
-        <footer class="footer">&copy; 2015 Matthew N. King</footer>
+      <header> 
+        <h1>
+          Matthew King's Code School Web-log & Glossary of Terms
+        </h1>     
+      </header>       
+      <div class="navBar">
+        <h2>Navi-<br>gation</h2>            
+          <ul>
+            <li><a href="#day2">Day One</a></li>
+            <li><a href="#day3">Day Two</a></li>
+            <li><a href="#email">my email</a></li>
+            <li><a href="#portfolio">my portfolio</a></li>
+            <li><a href="https://github.com/matthewnk" target="_blank">my github</a></li>
+          </ul>              
       </div>
-        <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <div class="content">
+        <div class="article"><a id="day1"></a>
+          <div class="articleHeader">
+            <h2>05132015@13:38</h2>
+          </div>
+          <div class="feature">
+            <!-- <div class="featureImage">
+              <img src="img/clouds1.jpg" alt="firstImage">
+            </div> -->
+            Today I'm working on integrating the glossary into this "blog". I managed to get the new words to add to the top of the list by changing "append" to "prepend" in the JS function. This was a complete stab in the dark on my part, and it worked, which for better or worse only rewards my general tendency to learn everything through brute tial and error.
+            <footer></footer>
+          </div>
+        </div>
+        <div class="article"><a id="day1"></a>
+          <div class="articleHeader">
+            <h2>05102015@20:12</h2>
+          </div>
+          <div class="feature">
+            <!-- <div class="featureImage">
+              <img src="img/clouds1.jpg" alt="firstImage">
+            </div> -->
+            Adobe brought us the future of page layout, and css took us back to the dark ages. Trying to arrange a page using css is like trying to do sergury with a pen knife taped to the end of a yard stick.
+            <footer></footer>
+          </div>
+        </div>
+        <div class="article"><a id="day2"></a>
+          <div class="articleHeader">
+            <h2>04152015@22:14</h2>           
+          </div>
+          <div class="feature">
+            <!-- <div class="featureImage">
+              <img src="img/spring1.jpg" alt="secondImage">
+            </div> -->
+            <p>This site is, obviously, a complete mess. It’s a bit frunstrating because I know what I want to accomplish, but I’m just having a lot of trouble with the CSS. HTML makes sense, and so far, JavaScript is actually quite fun. EVEN GIT is starting to make sense! <br></p> 
+            <footer></footer>
+          </div>
+          
+        </div> 
+        <div class="glossary">
+          <div class="glossaryHeader">
+            <h2>Glossary of coding terms</h2>           
+          </div>
+          <form id="theForm" action="#">
+            <legend for="word">New Word</legend>
+            <input type="text" id="word" /><br><br>
+            <legend for="definition">Definition</legend>
+            <textarea name="definition" id="definition" ></textarea>
+            <br><br>
+            <button id="addButton">Add word to dictionary</button><br><br>
+          </form>
+            <div class="wordList">
+              <h2>Word List</h2>
+              <dl id="wordList"></dl>
+            </div>
+          </div>
+        </div>
+      
+      
+            
+          <!-- Add your site or application content here -->
+      <footer class="footer">&copy; 2015 Matthew N. King</footer>
 
-        <!-- JavaScript -->
-        <script src="js/main.js"></script>
+      <!-- jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+      <!-- JavaScript -->
+      <script src="js/main.js"></script>
+      <script src="js/glossary.js"></script>
+
 
         
     </body>

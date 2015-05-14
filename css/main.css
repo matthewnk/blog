@@ -180,7 +180,7 @@ a:hover {
   RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 1140px) {
+@media (min-width: 425px) {
 
   header {
     z-index: 20;

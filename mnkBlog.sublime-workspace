@@ -1,0 +1,692 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"FON",
+				"font-style"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"get",
+				"getDictionary"
+			],
+			[
+				"di",
+				"displayDictionary"
+			],
+			[
+				"d",
+				"dictionary"
+			],
+			[
+				"border-top",
+				"border-top-color"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"bord",
+				"border-style"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"mr",
+				"margin-left"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bold",
+				"bolder"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"aling",
+				"text-align"
+			],
+			[
+				"pre",
+				"previous"
+			],
+			[
+				"new",
+				"newPrevIndex"
+			],
+			[
+				"at",
+				"attr"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"loop",
+				"loop_and_display"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"s",
+				"sans-serif"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"lef",
+				"margin-left"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4270,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/glossary.css",
+			"settings":
+			{
+				"buffer_size": 1216,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 4351,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/glossary.js",
+			"settings":
+			{
+				"buffer_size": 1285,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/plugins.js",
+			"settings":
+			{
+				"buffer_size": 760,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/MNK/Documents/PCS/blog/js/glossary.js",
+		"/Users/MNK/Documents/PCS/blog/css/glossary.css",
+		"/Users/MNK/Documents/PCS/blog/css/main.css",
+		"/Users/MNK/Documents/PCS/aFd/class/glossary_new2.html",
+		"/Users/MNK/Documents/PCS/blog/index.html",
+		"/Users/MNK/Documents/PCS/primerPro/filmSetPhotoPortfolio/index.html",
+		"/Users/MNK/Documents/PCS/aFd/shelter/css/custom.css",
+		"/Users/MNK/Documents/PCS/primerPro/mobileFirst/js/hamburger.js",
+		"/Users/MNK/Documents/PCS/primerPro/mobileFirst/index.html",
+		"/Users/MNK/Documents/PCS/aFd/shelter/js/main.js",
+		"/Users/MNK/Documents/PCS/aFd/shelter/index.html",
+		"/Users/MNK/Documents/PCS/aFd/class/glossary_new.html",
+		"/Users/MNK/Documents/PCS/primerPro/filmSetPhotoPortfolio/css/custom.css",
+		"/Users/MNK/Documents/PCS/aFd/class/quiz.html",
+		"/Users/MNK/Documents/PCS/aFd/class/practice.html",
+		"/Users/MNK/Documents/PCS/aFd/class/html",
+		"/Users/MNK/Documents/PCS/bootstrap/docs/examples/carousel/index.html",
+		"/Users/MNK/Documents/PCS/aFd/shelter/index copy.html",
+		"/Users/MNK/Documents/PCS/aFd/shelter/index3.html",
+		"/Users/MNK/Documents/PCS/primerPro/filmSetPhotoPortfolio/css/sticky-footer-navbar.css",
+		"/Users/MNK/Documents/PCS/primerPro/filmSetPhotoPortfolio/js/bootstrap.js",
+		"/Users/MNK/Documents/PCS/primerPro/filmSetPhotoPortfolio/js/gallery.js",
+		"/Users/MNK/Documents/PCS/primerPro/hambergerExample/mobile-menu-hamburger/mobile-menu-demo.html",
+		"/Users/MNK/Documents/PCS/bootstrap/docs/examples/sticky-footer/index.html",
+		"/Users/MNK/Documents/PCS/bootstrap/docs/examples/sticky-footer/sticky-footer.css",
+		"/Users/MNK/Documents/PCS/primerPro/hambergerExample/mobile-menu-hamburger/css/hamburger.css",
+		"/Users/MNK/Documents/PCS/primerPro/filmSetPhotoPortfolio/css/carousel.css",
+		"/Users/MNK/Documents/PCS/bootstrap/docs/examples/sticky-footer-navbar/index.html",
+		"/Users/MNK/Documents/PCS/primerPro/gitFun/gitFun.html",
+		"/Users/MNK/Documents/PCS/primerPro/filmSetPhotoPortfolio/css/sticky-footer.css",
+		"/Users/MNK/Documents/PCS/primerPro/filmSetPhotoPortfolio/css/carousel1.css",
+		"/Users/MNK/Documents/PCS/primerPro/bootstrap/docs/examples/sticky-footer/index.html",
+		"/Users/MNK/Documents/PCS/primerPro/bootstrap/docs/examples/sticky-footer/untitled.html",
+		"/Users/MNK/Documents/PCS/primerPro/filmSetPhotoPortfolio/css/bootstrap.min.css",
+		"/Users/MNK/Documents/PCS/primerPro/filmSetPhotoPortfolio/css/style.css",
+		"/Users/MNK/Documents/PCS/primerPro/bootstrap/docs/examples/carousel/index.html",
+		"/Users/MNK/Documents/PCS/primerPro/bootstrap/docs/examples/sticky-footer-navbar/index.html",
+		"/Users/MNK/Documents/PCS/primerPro/bootstrap/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css",
+		"/Users/MNK/Documents/PCS/primerPro/bootstrap/docs/index.html",
+		"/Users/MNK/Documents/PCS/primerPro/bootstrap/docs/examples/navbar-fixed-top/index.html",
+		"/Users/MNK/Documents/PCS/primerPro/filmSetPhotoPortfolio/index2.html",
+		"/Users/MNK/Documents/PCS/primerPro/mobileFirst/css/main.css",
+		"/Users/MNK/Documents/PCS/primerPro/mobileFirst/css/hamburger.css",
+		"/Users/MNK/Documents/PCS/primerPro/journal/css/main.css",
+		"/Users/MNK/Desktop/index.html",
+		"/Users/MNK/Documents/PCS/primerPro/journal/index.html",
+		"/Users/MNK/Documents/PCS/newBreath/secondCodeChallenge/index.html",
+		"/Users/MNK/Documents/PCS/newBreath/secondCodeChallenge/stylesheets/main.css",
+		"/Users/MNK/Documents/PCS/primerPro/journal/template.html",
+		"/Users/MNK/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/MNK/Documents/PCS/2ndAssingment/index.html",
+		"/Users/MNK/Documents/PCS/primerPro/jScriptJQueryExe1/index.html",
+		"/Users/MNK/Documents/PCS/primerPro/Journal/journalSite/main.css",
+		"/Users/MNK/Documents/PCS/primerPro/Journal/journalSite/index.html",
+		"/Users/MNK/Documents/PCS/javaScriptPractice/class1.js",
+		"/Users/MNK/Documents/PCS/TH/javascriptBasics/quiz.js",
+		"/Volumes/Seagate Backup Plus Drive/Matthew/historicArtProjects/blindlabor/gleetest/index.html",
+		"/Users/MNK/Documents/PCS/newBreath/oldFiles/stylesheets/main2.css",
+		"/Users/MNK/Documents/PCS/daylight/index.html",
+		"/Users/MNK/Documents/PCS/newBreath/oldFiles/index2.html",
+		"/Users/MNK/Downloads/mainSharon.css",
+		"/Users/MNK/Downloads/indexSharon.html",
+		"/Users/MNK/Documents/PCS/pcs-primer-exercise/template/template.html",
+		"/Users/MNK/Documents/PCS/pcs-primer-exercise/template/stylesheets/template.css",
+		"/Users/MNK/Documents/PCS/newBreath/oldFiles/stylesheets/main.css",
+		"/Users/MNK/Documents/PCS/newBreath/oldFiles/index3.html",
+		"/Users/MNK/Documents/PCS/newBreath/oldFiles/stylesheets/header{.css",
+		"/Users/MNK/Documents/PCS/newBreath/oldFiles/oldIndex.html",
+		"/Users/MNK/Documents/PCS/pcs-primer-exercise/site/stylesheets/main.css",
+		"/Users/MNK/Documents/PCS/2ndAssingment/stylesheets/main.css",
+		"/Users/MNK/Documents/PCS/pcs-primer-exercise/site/index.html",
+		"/Users/MNK/Documents/PCS/secondCodeChallenge/secondCodeChallenge/index.html",
+		"/Users/MNK/Documents/PCS/primerTest/index.html",
+		"/Users/MNK/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/MNK/Documents/PCS/pcs-primer-exercise/site/stylesheets/template.css",
+		"/Users/MNK/Documents/PCS/pcs-primer-exercise/site/template.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n  ",
+			"100",
+			"7FFFD4",
+			"753",
+			"<!-- <h1>Example headline.</h1>\n              <p>Note: If you're viewing this page via a <code>file://</code> URL, the \"next\" and \"previous\" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p> -->",
+			"warning",
+			"10",
+			"outset",
+			"input[value=\"Run Script\"",
+			"main_01.gif",
+			"	</",
+			"=\"\">\n",
+			"...</",
+			"h2",
+			"contact@email.com",
+			"003399",
+			"99ffff",
+			"#70653F",
+			">>",
+			"div class=\"article\"",
+			"div class=\"header\"",
+			"70653F",
+			"#0f0f0f",
+			"html",
+			"template.css"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"150",
+			"ccc",
+			"768",
+			">"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1337.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/glossary.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/glossary.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/plugins.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mnkBlog.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 308.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

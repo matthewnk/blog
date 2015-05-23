@@ -1,3 +1,4 @@
+$blue: #0F6470;
 
 .glossary textarea {
   height: 5em;
@@ -5,46 +6,51 @@
 }
 
 #addButton {
-  background-color: lightgreen;
+  background-color: #FFD464;
 }
 
 .glossary {
-  z-index: 18;
+  z-index: 25;
   position: relative;
-  top: -430px;
-  left: 50%;
-  width: 100%;
+  top: -250px;
   height: auto;
   color: white;
-  background-color: #1253A4;
+  background-color: #11707D;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
-  opacity: .7;
   font-family: neuton, sans-serif;
   padding-left: 200px;
   padding-bottom: 20px;
+  opacity: .8;
 }
 
 .glossaryHeader {
   position: relative;
-  left: -10%;
+  top: 30px;
+  left: -150px;
   font-family: neuton, sans-serif;
+  text-align: left;
   color: #fff;
   width: 4em; 
   font-weight: bolder;
-  line-height: 200%;
+  line-height: 180%;
   margin-left: 10px;
   font-size: 200%;
 }
 
 .glossary form {
   position: relative;
-  left: -10%;
+  left: -150px;
+  width: 200%
+}
+
+.glossary form textarea {
+  width: 80%;
 }
 
 .wordList {
   position: relative;
-  left: -10%;
+  left: -150px;
 }
 
 /* ----------------------------------------------- 
@@ -52,21 +58,49 @@
 -------------------------------------------------- */
 
 @media (min-width: 425px) {
+
   .glossary {
-  z-index: 18;
-  position: relative;
-  top: -430px;
-  left: 50%;
-  width: 100%;
-  height: auto;
-  color: white;
-  background-color: #1253A4;
-  border-top-left-radius: 200px;
-  border-bottom-left-radius: 200px;
-  opacity: .7;
-  font-family: neuton, sans-serif;
-  padding-left: 200px;
-  padding-bottom: 20px;
-}
+    z-index: 18;
+    position: relative;
+    top: -335px;
+    left: 55%;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: $blue;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    opacity: .7;
+    font-family: neuton, sans-serif;
+    padding-left: 200px;
+    padding-bottom: 20px;
+  }
+
+    .glossaryHeader {
+    position: relative;
+    top: 5%;
+    left: -8%;
+    font-family: neuton, sans-serif;
+    color: #fff;
+    width: 4em; 
+    font-weight: bolder;
+    line-height: 200%;
+    margin-left: 10px;
+    font-size: 200%;
+  }
+    .glossary form {
+    position: relative;
+    left: -7%;
+    width: 200%
+  }
+
+  .glossary form textarea {
+    max-width: 400px;
+  }
+
+  .wordList {
+    position: relative;
+    left: -7%;
+  }
 
 }

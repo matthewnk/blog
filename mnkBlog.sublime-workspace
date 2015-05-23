@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
-				"FON",
-				"font-style"
-			],
-			[
 				"padd",
-				"padding-left"
+				"padding-bottom"
 			],
 			[
 				"mar",
-				"margin"
+				"margin-bottom"
+			],
+			[
+				"gre",
+				"grey1"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"FON",
+				"font-style"
 			],
 			[
 				"l",
@@ -26,10 +42,6 @@
 			[
 				"color",
 				"color"
-			],
-			[
-				"pa",
-				"padding-right"
 			],
 			[
 				"get",
@@ -144,10 +156,6 @@
 				"border"
 			],
 			[
-				"min",
-				"min-height"
-			],
-			[
 				"bac",
 				"background-color"
 			],
@@ -203,54 +211,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 4270,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/glossary.css",
-			"settings":
-			{
-				"buffer_size": 1216,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/main.css",
-			"settings":
-			{
-				"buffer_size": 4351,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/glossary.js",
-			"settings":
-			{
-				"buffer_size": 1285,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/plugins.js",
-			"settings":
-			{
-				"buffer_size": 760,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/main.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -285,16 +245,22 @@
 	"file_history":
 	[
 		"/Users/MNK/Documents/PCS/blog/js/glossary.js",
-		"/Users/MNK/Documents/PCS/blog/css/glossary.css",
-		"/Users/MNK/Documents/PCS/blog/css/main.css",
-		"/Users/MNK/Documents/PCS/aFd/class/glossary_new2.html",
+		"/Users/MNK/Documents/PCS/blog/sass/glossary.scss.css",
+		"/Users/MNK/Documents/PCS/blog/css/main.scss.css",
 		"/Users/MNK/Documents/PCS/blog/index.html",
+		"/Users/MNK/Documents/PCS/blog/css/main.css",
+		"/Users/MNK/Documents/PCS/blog/css/glossary.css",
+		"/Users/MNK/Documents/PCS/aFd/shelter/index.html",
+		"/Users/MNK/Documents/PCS/blog/css/glossary.scss.css",
+		"/Users/MNK/Documents/PCS/blog/js/plugins.js",
+		"/Users/MNK/Documents/PCS/blog/config.rg",
+		"/Users/MNK/Documents/PCS/blog/js/main.js",
+		"/Users/MNK/Documents/PCS/aFd/class/glossary_new2.html",
 		"/Users/MNK/Documents/PCS/primerPro/filmSetPhotoPortfolio/index.html",
 		"/Users/MNK/Documents/PCS/aFd/shelter/css/custom.css",
 		"/Users/MNK/Documents/PCS/primerPro/mobileFirst/js/hamburger.js",
 		"/Users/MNK/Documents/PCS/primerPro/mobileFirst/index.html",
 		"/Users/MNK/Documents/PCS/aFd/shelter/js/main.js",
-		"/Users/MNK/Documents/PCS/aFd/shelter/index.html",
 		"/Users/MNK/Documents/PCS/aFd/class/glossary_new.html",
 		"/Users/MNK/Documents/PCS/primerPro/filmSetPhotoPortfolio/css/custom.css",
 		"/Users/MNK/Documents/PCS/aFd/class/quiz.html",
@@ -363,13 +329,14 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"<current file>"
 		]
 	},
 	"find_state":
@@ -377,6 +344,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"green",
+			"#0F6470",
+			"#30302F",
+			"#B8BFB8",
+			"#062B30",
+			"#0F6470",
+			"#F26964",
+			"#FFD464",
+			"#0F6470",
+			"#F26964",
+			"#FFD464",
+			"#B8BFB8",
+			"margin-left: 10px;",
 			"\n  ",
 			"100",
 			"7FFFD4",
@@ -409,6 +389,14 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$blue",
+			"$greyGreen",
+			"$darkBlue",
+			"$red",
+			"$yellow",
+			"$red",
+			"$yellow",
+			"$grey1",
 			"150",
 			"ccc",
 			"768",
@@ -423,187 +411,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4270,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1337.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/glossary.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1216,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4351,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/glossary.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1285,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/plugins.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 760,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -646,7 +455,7 @@
 	"project": "mnkBlog.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -684,7 +493,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 308.0,
+	"side_bar_width": 160.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -62,18 +62,18 @@ $blue: #0F6470;
   .glossary {
     z-index: 18;
     position: relative;
-    top: -335px;
-    left: 55%;
+    top: -625px;
+    left: 50%;
     width: 100%;
     height: auto;
     color: white;
     background-color: $blue;
     border-top-left-radius: 200px;
     border-bottom-left-radius: 200px;
-    opacity: .7;
+    opacity: .6;
     font-family: neuton, sans-serif;
-    padding-left: 200px;
     padding-bottom: 20px;
+    margin-left: 0px;
   }
 
     .glossaryHeader {

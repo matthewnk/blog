@@ -49,6 +49,18 @@ a:hover {
   color: forestgreen;
   text-decoration: none; }
 
+/* ----------------------------------------------- 
+  RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 425px) {
+  h1 {
+    width: 1100px;
+    margin-top: 0px;
+    font-size: 5em;
+    line-height: 100%;
+    color: #B8BFB8;
+    background-color: #fff; } }
+
 .article {
   z-index: 21;
   position: relative;
@@ -106,6 +118,11 @@ a:hover {
   RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 425px) {
+  .article {
+    z-index: 18;
+    top: -10px;
+    width: 70%;
+    left: 9.75%; }
   .articleHeader {
     text-align: left;
     padding-left: 15%; }
@@ -119,13 +136,7 @@ a:hover {
     width: auto;
     max-width: 800px;
     padding-left: 15%;
-    padding-right: 40px; }
-  .article {
-    z-index: 18;
-    top: 285px;
-    width: 60%;
-    left: 10%;
-    margin-left: 10px; } }
+    padding-right: 40px; } }
 
 .footer {
   z-index: 30;
@@ -201,9 +212,9 @@ a:hover {
     left: -10%;
     font-size: 3em; }
   .navBar {
-    z-index: 19;
+    z-index: 20;
     position: fixed;
-    top: 195px;
+    top: 220px;
     font-family: neuton, serif;
     width: 140px;
     height: 800px;
@@ -266,18 +277,18 @@ a:hover {
   .glossary {
     z-index: 18;
     position: relative;
-    top: -335px;
-    left: 55%;
+    top: -625px;
+    left: 50%;
     width: 100%;
     height: auto;
     color: white;
     background-color: #0F6470;
     border-top-left-radius: 200px;
     border-bottom-left-radius: 200px;
-    opacity: .7;
+    opacity: .6;
     font-family: neuton, sans-serif;
-    padding-left: 200px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    margin-left: 0px; }
   .glossaryHeader {
     position: relative;
     top: 5%;

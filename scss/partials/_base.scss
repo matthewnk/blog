@@ -57,3 +57,22 @@ body {
     color: forestgreen;
     text-decoration: none;
   }
+
+  /* ----------------------------------------------- 
+  RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 425px) {
+
+  h1 {  
+    width: 1100px;
+    margin-top: 0px;
+    font-size: 5em;
+    line-height: 100%;
+    color: #B8BFB8;
+    background-color: #fff;
+    
+  }
+}
+
+

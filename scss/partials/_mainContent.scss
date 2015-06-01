@@ -63,12 +63,17 @@
 
 @media (min-width: 425px) {
 
+  .article {
+    z-index: 18;
+    top: -10px;
+    width: 70%;
+    left: 9.75%;
+  }
+
   .articleHeader {
     text-align: left;
     padding-left: 15%;
   }
-
-  
 
   .content {
     /*z-index: 15;*/
@@ -86,11 +91,4 @@
     padding-right: 40px;
   }
 
-  .article {
-    z-index: 18;
-    top: 285px;
-    width: 60%;
-    left: 10%;
-    margin-left: 10px
-  }
 }

@@ -1,0 +1,300 @@
+/* color reference 
+
+  #30302F - dark Grey
+  #B8BFB8 - grey
+  #FFD464 - yellow
+  #F26964 - red
+  #E8FAE8 - green
+  #0F6470 - blue
+  #062B30 - dark blue
+
+*/
+body {
+  color: yellow; }
+
+h1 {
+  font-family: advent-pro, sans-serif;
+  font-size: 4em;
+  line-height: 80%;
+  color: #fff;
+  background-color: #B8BFB8;
+  position: relative;
+  padding-left: 10px;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 100px; }
+
+h2 {
+  font-family: open-sans, sans-serif;
+  font-size: 2em;
+  margin-top: 0px; }
+
+h3 {
+  font-size: 2em;
+  color: #fff; }
+
+header {
+  z-index: 20;
+  opacity: 0.9; }
+
+a:link {
+  color: #fff;
+  text-decoration: none; }
+
+a:visited {
+  color: #fff;
+  text-decoration: none; }
+
+a:hover {
+  color: forestgreen;
+  text-decoration: none; }
+
+.article {
+  z-index: 21;
+  position: relative;
+  top: -190px;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  background-color: #F26964;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  border-top: dashed;
+  border-top-color: white;
+  opacity: .8; }
+
+.articleHeader {
+  position: relative;
+  text-align: right;
+  font-family: neuton, sans-serif;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.3em; }
+
+.feature {
+  position: relative;
+  top: -40px;
+  color: #062B30;
+  font-family: neuton, sans-serif;
+  font-size: 1em;
+  text-align: justify;
+  max-width: 400px;
+  width: 80%;
+  padding-top: 10px;
+  padding-left: 15%;
+  padding-bottom: 10px; }
+
+.featureImage img {
+  position: relative;
+  border-radius: 20px;
+  width: 300px;
+  height: 200px; }
+
+.featureImage {
+  z-index: 19;
+  position: relative;
+  opacity: 0.8;
+  float: right;
+  padding: 0px;
+  margin: 10px -40px 40px 100px;
+  border-radius: 25px;
+  box-shadow: -20px 20px 0.25px #4E4E4E;
+  width: 300px;
+  height: 200px; }
+
+/* ----------------------------------------------- 
+  RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 425px) {
+  .articleHeader {
+    text-align: left;
+    padding-left: 15%; }
+  .content {
+    /*z-index: 15;*/
+    width: 100%;
+    margin-top: -100px;
+    max-width: 1250px; }
+  .feature {
+    /*padding-left: 90px;*/
+    width: auto;
+    max-width: 800px;
+    padding-left: 15%;
+    padding-right: 40px; }
+  .article {
+    z-index: 18;
+    top: 285px;
+    width: 60%;
+    left: 10%;
+    margin-left: 10px; } }
+
+.footer {
+  z-index: 30;
+  position: fixed;
+  left: 0px;
+  height: 20px;
+  bottom: 0;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: auto;
+  padding: 10px;
+  padding-bottom: 0px;
+  background-color: #B8BFB8;
+  opacity: .7; }
+
+/* ----------------------------------------------- 
+  RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 425px) {
+  .footer {
+    z-index: 20;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /*  Set the fixed height of the footer here */
+    height: 30px;
+    background-color: #30302F; } }
+
+.navBar {
+  z-index: 20;
+  position: relative;
+  top: -130px;
+  left: 0px;
+  width: 100%;
+  height: 15em;
+  padding: 0px;
+  background-color: #FFD464;
+  border-width: 0px;
+  border-radius: 25px;
+  padding: 0px;
+  padding-top: 10px;
+  margin-left: 0px;
+  opacity: .8; }
+
+.navBar h2 {
+  position: relative;
+  font-family: neuton, sans-serif;
+  color: #fff;
+  max-width: 100px;
+  font-weight: bolder;
+  line-height: 80%;
+  font-size: 4em;
+  margin-bottom: 0px; }
+
+.navBar ul {
+  position: relative;
+  font-family: neuton, sans-serif;
+  line-height: 300%;
+  list-style: none;
+  text-align: right;
+  margin-left: -20px;
+  margin-right: 10px; }
+
+.navBar li {
+  display: inline-block; }
+
+/* ----------------------------------------------- 
+  RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 425px) {
+  .navBar h2 {
+    position: relative;
+    left: -10%;
+    font-size: 3em; }
+  .navBar {
+    z-index: 19;
+    position: fixed;
+    top: 195px;
+    font-family: neuton, serif;
+    width: 140px;
+    height: 800px;
+    padding: 0px;
+    background-color: #FFD464;
+    border-width: 0px;
+    border-radius: 25px;
+    margin-left: 10px; } }
+
+.glossary textarea {
+  height: 5em;
+  width: 40em; }
+
+#addButton {
+  background-color: #FFD464; }
+
+.glossary {
+  z-index: 25;
+  position: relative;
+  top: -250px;
+  height: auto;
+  color: white;
+  background-color: #11707D;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  font-family: neuton, sans-serif;
+  padding-left: 200px;
+  padding-bottom: 20px;
+  opacity: .8; }
+
+.glossaryHeader {
+  position: relative;
+  top: 30px;
+  left: -150px;
+  font-family: neuton, sans-serif;
+  text-align: left;
+  color: #fff;
+  width: 4em;
+  font-weight: bolder;
+  line-height: 180%;
+  margin-left: 10px;
+  font-size: 200%; }
+
+.glossary form {
+  position: relative;
+  left: -150px;
+  width: 200%; }
+
+.glossary form textarea {
+  width: 80%; }
+
+.wordList {
+  position: relative;
+  left: -150px; }
+
+/* ----------------------------------------------- 
+  RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 425px) {
+  .glossary {
+    z-index: 18;
+    position: relative;
+    top: -335px;
+    left: 55%;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: #0F6470;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    opacity: .7;
+    font-family: neuton, sans-serif;
+    padding-left: 200px;
+    padding-bottom: 20px; }
+  .glossaryHeader {
+    position: relative;
+    top: 5%;
+    left: -8%;
+    font-family: neuton, sans-serif;
+    color: #fff;
+    width: 4em;
+    font-weight: bolder;
+    line-height: 200%;
+    margin-left: 10px;
+    font-size: 200%; }
+  .glossary form {
+    position: relative;
+    left: -7%;
+    width: 200%; }
+  .glossary form textarea {
+    max-width: 400px; }
+  .wordList {
+    position: relative;
+    left: -7%; } }

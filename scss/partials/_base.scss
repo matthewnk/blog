@@ -1,15 +1,3 @@
-/* color reference 
-
-  #30302F - dark Grey
-  #B8BFB8 - grey
-  #FFD464 - yellow
-  #F26964 - red
-  #E8FAE8 - green
-  #0F6470 - blue
-  #062B30 - dark blue
-
-*/
-
 body {
   color: yellow;
 }
@@ -18,8 +6,8 @@ body {
   font-family: advent-pro, sans-serif;    
   font-size: 4em;
   line-height: 80%;
-  color: #fff;
-  background-color: #B8BFB8;
+  color: $white;
+  background-color: $grey;
   position: relative;
   padding-left: 10px;
   margin-top: 0px;
@@ -35,7 +23,7 @@ body {
 
   h3 {
     font-size: 2em;
-    color: #fff;
+    color: $white;
   }
 
   header {
@@ -44,21 +32,21 @@ body {
   }
 
   a:link {
-  color: #fff;
+  color: $white;
   text-decoration: none;
   }
 
   a:visited {
-    color: #fff;
+    color: $white;
     text-decoration: none;
   }
 
   a:hover {
-    color: forestgreen;
+    color: $green;
     text-decoration: none;
   }
 
-  /* ----------------------------------------------- 
+/* ----------------------------------------------- 
   RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -69,8 +57,8 @@ body {
     margin-top: 0px;
     font-size: 5em;
     line-height: 100%;
-    color: #B8BFB8;
-    background-color: #fff;
+    color: $grey;
+    background-color: $white;
     
   }
 }

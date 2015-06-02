@@ -1,14 +1,6 @@
-/* color reference 
-
-  #30302F - dark Grey
-  #B8BFB8 - grey
-  #FFD464 - yellow
-  #F26964 - red
-  #E8FAE8 - green
-  #0F6470 - blue
-  #062B30 - dark blue
-
-*/
+/* ----------------------------------------------- 
+  DESCRIPTIVE COLOR VARIABLE	
+-------------------------------------------------- */
 body {
   color: yellow; }
 
@@ -46,7 +38,7 @@ a:visited {
   text-decoration: none; }
 
 a:hover {
-  color: forestgreen;
+  color: #E8FAE8;
   text-decoration: none; }
 
 /* ----------------------------------------------- 
@@ -236,8 +228,8 @@ a:hover {
   position: relative;
   top: -250px;
   height: auto;
-  color: white;
-  background-color: #11707D;
+  color: #fff;
+  background-color: #0F6470;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
   font-family: neuton, sans-serif;
@@ -309,3 +301,7 @@ a:hover {
   .wordList {
     position: relative;
     left: -7%; } }
+
+/* ----------------------------------------------- 
+  DESCRIPTIVE COLOR VARIABLE	
+-------------------------------------------------- */

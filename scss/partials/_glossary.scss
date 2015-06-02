@@ -1,4 +1,5 @@
-$blue: #0F6470;
+
+// $blue: $blue;
 
 .glossary textarea {
   height: 5em;
@@ -6,7 +7,7 @@ $blue: #0F6470;
 }
 
 #addButton {
-  background-color: #FFD464;
+  background-color: $yellow;
 }
 
 .glossary {
@@ -14,8 +15,8 @@ $blue: #0F6470;
   position: relative;
   top: -250px;
   height: auto;
-  color: white;
-  background-color: #11707D;
+  color: $white;
+  background-color: $blue;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
   font-family: neuton, sans-serif;
@@ -30,7 +31,7 @@ $blue: #0F6470;
   left: -150px;
   font-family: neuton, sans-serif;
   text-align: left;
-  color: #fff;
+  color: $white;
   width: 4em; 
   font-weight: bolder;
   line-height: 180%;
@@ -81,7 +82,7 @@ $blue: #0F6470;
     top: 5%;
     left: -8%;
     font-family: neuton, sans-serif;
-    color: #fff;
+    color: $white;
     width: 4em; 
     font-weight: bolder;
     line-height: 200%;

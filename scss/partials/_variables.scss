@@ -10,5 +10,24 @@ $green : #E8FAE8;
 $blue : #0F6470;  
 $darkBlue : #062B30;  
 $white : #fff;
-$green : #228B22
+$green : #228B22;
 $imageShadow : #4E4E4E;
+
+
+/* ----------------------------------------------- 
+ Z-INDEX VARIABLES	
+-------------------------------------------------- */
+
+$tipTop: 22;
+$top : 21;
+$mid : 20;
+$bottom: 19;
+
+/* ----------------------------------------------- 
+ MEDIA-QUERY VARIABLES	
+-------------------------------------------------- */
+
+$medium : "only screen and (min-width: 961px)";
+$large : "only screen and (min-width: 962px)";
+
+

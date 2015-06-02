@@ -1,35 +1,27 @@
-.navBar { 
-  z-index: 20;
-  position: relative;
-  top: -130px;
-  left: 0px;
+.navBar {
+  @include text ($color: $white, $bg-color: $yellow, $weight: bolder, $align: left);
+  @include posOp(relative, -120px, 0px, $z: $mid, $op: .8); 
   width: 100%;
   height: 15em;
   padding: 0px;
-  background-color: $yellow;
   border-width: 0px; 
   border-radius: 25px;
   padding: 0px;
   padding-top: 10px;
-  margin-left: 0px;
-  opacity: .8;
+  margin-right: 10px;
 }
 
 .navBar h2 {
-  position: relative;
+  @include text (4em, $l-height: 80%,$color: $white, $weight: bolder, $align: left);
   font-family: neuton, sans-serif;
-  color: $white;
   max-width: 100px; 
-  font-weight: bolder;
-  line-height: 80%;
-  font-size: 4em;
   margin-bottom: 0px;
 }
 
 .navBar ul {
-  position: relative;
+  @include text ($l-height: 300%, $color: $white, $align: right);
+  @include posOp(relative);
   font-family: neuton, sans-serif;
-  line-height: 300%;
   list-style: none;
   text-align: right;
   margin-left: -20px;
@@ -44,7 +36,7 @@
   RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 425px) {
+@media #{$medium} {
 
   .navBar h2 {
     position: relative;
@@ -53,7 +45,7 @@
   }
 
   .navBar {
-    z-index: 20;
+    z-index: $tipTop;
     position: fixed;
     top: 220px;
     font-family: neuton, serif;       

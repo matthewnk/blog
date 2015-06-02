@@ -1,73 +1,63 @@
+
 .article {
-  z-index: 21;
-  position: relative;
-  top: -190px;
+  @include posOp(relative, -185px, $z: $mid, $op: .9);
   width: 100%;
-  max-width: 560px;
   height: auto;
   background-color: $red;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
   border-top: dashed;
   border-top-color: $white;
-  opacity: .8; 
-
 }
 
 .articleHeader {
+  @include text (1.3em, $color: $white, $weight: bolder, $align: left);
+  font-family: advent-pro, sans-serif;
   position: relative;
-  text-align: right;
-  font-family: neuton, sans-serif;
-  color: $white;
-  font-weight: bolder;
-  font-size: 1.3em;
+  padding-left: 50px;
 }
 
 .feature {
-  position: relative;
-  top: -40px;
-  color: #062B30;
+  @include text (1em, $color: $darkBlue,$align: justify);
+  @include posOp(relative, -40px);
   font-family: neuton, sans-serif;
-  font-size: 1em;
-  text-align: justify;
-  max-width: 400px;
+  top: -40px;
+  max-width: 600px;
   width: 80%;
   padding-top: 10px;
-  padding-left: 15%;
+  padding-left: 50px;
   padding-bottom: 10px;
 }
 
-.featureImage img {
-  position: relative;
-  border-radius: 20px;
-  width: 300px;
-  height: 200px;
-}
+// .featureImage img {
+//   position: relative;
+//   border-radius: 20px;
+//   width: 300px;
+//   height: 200px;
+// }
 
-.featureImage {
-  z-index: 19;
-  position: relative;
-  opacity: 0.8;
-  float: right;
-  padding: 0px;
-  margin: 10px -40px 40px 100px;
-  border-radius: 25px;
-  box-shadow: -20px 20px .25px $imageShadow;
-  width: 300px;
-  height: 200px;
-}
+// .featureImage {
+//   z-index: $top;
+//   position: relative;
+//   opacity: 0.8;
+//   float: right;
+//   padding: 0px;
+//   margin: 10px -40px 40px 100px;
+//   border-radius: 25px;
+//   box-shadow: -20px 20px .25px $imageShadow;
+//   width: 300px;
+//   height: 200px;
+// }
 
 /* ----------------------------------------------- 
   RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 425px) {
+@media #{$medium} {
 
   .article {
-    z-index: 18;
-    top: -10px;
-    width: 70%;
-    left: 9.75%;
+    @include posOp($top: -10px, $left: 9.75%, $z: $mid);
+    width: 50%;
   }
 
   .articleHeader {
@@ -76,7 +66,6 @@
   }
 
   .content {
-    /*z-index: 15;*/
     width: 100%;
     margin-top: -100px;
     max-width: 1250px;
@@ -84,9 +73,8 @@
   }
 
   .feature {
-    /*padding-left: 90px;*/
     width: auto;
-    max-width: 800px;
+    max-width: 500px;
     padding-left: 15%;
     padding-right: 40px;
   }

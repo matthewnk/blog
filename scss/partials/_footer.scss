@@ -1,5 +1,5 @@
 .footer {
-  z-index: 30;
+  z-index: $tipTop;
   position: fixed;
   left: 0px;
   height: 20px;
@@ -17,12 +17,12 @@
   RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 425px) {
+@media #{$medium} {
 
   
 
   .footer {
-    z-index: 20;
+    z-index: $tipTop;
     position: fixed;
     bottom: 0;
     width: 100%;

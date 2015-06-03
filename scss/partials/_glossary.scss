@@ -15,7 +15,7 @@
   @include text($color: $white, $bg-color: $blue);
   @include posOp(relative, -230px, $z: $top, $op: .8);
   height: auto;
-  min-height: 800px;
+  min-height: 600px;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
   padding-left: 200px;

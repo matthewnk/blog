@@ -7,6 +7,10 @@
   background-color: $yellow;
 }
 
+#clearButton {
+  background-color: $red;
+}
+
 .glossary {
   @include text($color: $white, $bg-color: $blue);
   @include posOp(relative, -190px, $z: $top, $op: .8);

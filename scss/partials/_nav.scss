@@ -11,8 +11,8 @@
 .navBar h2 {
   @include text (4em, $l-height: 80%,$color: $white, $weight: bolder, $align: left);
   font-family: neuton, sans-serif;
-  // max-width: 100px;
-  padding: 10px 10px 0px 10px; 
+  max-width: 100px; 
+  padding-left: 10px;
   margin-bottom: 0px;
 } 
 

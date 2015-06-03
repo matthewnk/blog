@@ -63,7 +63,7 @@ h3 {
 
 .article {
   position: relative;
-  top: -185px;
+  top: -145px;
   z-index: 20;
   opacity: 0.9;
   width: 100%;
@@ -152,18 +152,14 @@ h3 {
   font-weight: bolder;
   text-align: left;
   position: relative;
-  top: -120px;
+  top: -100px;
   left: 0px;
   z-index: 20;
   opacity: 0.8;
   width: 100%;
   height: 15em;
-  padding: 0px;
   border-width: 0px;
-  border-radius: 25px;
-  padding: 0px;
-  padding-top: 10px;
-  margin-right: 10px; }
+  border-radius: 25px; }
 
 .navBar h2 {
   font-size: 4em;
@@ -172,7 +168,7 @@ h3 {
   font-weight: bolder;
   text-align: left;
   font-family: neuton, sans-serif;
-  max-width: 100px;
+  padding: 10px 10px 0px 10px;
   margin-bottom: 0px; }
 
 .navBar ul {
@@ -221,10 +217,11 @@ h3 {
   color: #fff;
   background-color: #0F6470;
   position: relative;
-  top: -230px;
+  top: -190px;
   z-index: 21;
   opacity: 0.8;
   height: auto;
+  min-height: 800px;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
   padding-left: 200px;
@@ -251,7 +248,8 @@ h3 {
 
 .glossary form textarea {
   font-family: neuton, sans-serif;
-  width: 80%; }
+  width: 80%;
+  max-width: 350px; }
 
 .wordList {
   position: relative;

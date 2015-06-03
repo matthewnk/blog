@@ -1,6 +1,6 @@
 
 .article {
-  @include posOp(relative, -185px, $z: $mid, $op: .9);
+  @include posOp(relative, -145px, $z: $mid, $op: .9);
   width: 100%;
   height: auto;
   background-color: $red;

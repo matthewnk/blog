@@ -9,8 +9,9 @@
 
 .glossary {
   @include text($color: $white, $bg-color: $blue);
-  @include posOp(relative, -230px, $z: $top, $op: .8);
+  @include posOp(relative, -190px, $z: $top, $op: .8);
   height: auto;
+  min-height: 800px;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
   padding-left: 200px;
@@ -34,6 +35,7 @@
 .glossary form textarea {
   font-family: neuton, sans-serif;
   width: 80%;
+  max-width: 350px;
 }
 
 .wordList {

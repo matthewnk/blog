@@ -1,22 +1,20 @@
 .navBar {
   @include text ($color: $white, $bg-color: $yellow, $weight: bolder, $align: left);
-  @include posOp(relative, -120px, 0px, $z: $mid, $op: .8); 
+  @include posOp(relative, -100px, 0px, $z: $mid, $op: .8); 
   width: 100%;
   height: 15em;
-  padding: 0px;
+  // padding-top: 10px;
   border-width: 0px; 
   border-radius: 25px;
-  padding: 0px;
-  padding-top: 10px;
-  margin-right: 10px;
 }
 
 .navBar h2 {
   @include text (4em, $l-height: 80%,$color: $white, $weight: bolder, $align: left);
   font-family: neuton, sans-serif;
-  max-width: 100px; 
+  // max-width: 100px;
+  padding: 10px 10px 0px 10px; 
   margin-bottom: 0px;
-}
+} 
 
 .navBar ul {
   @include text ($l-height: 300%, $color: $white, $align: right);

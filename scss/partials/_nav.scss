@@ -15,6 +15,7 @@
   @include text (4em, $l-height: 80%,$color: $white, $weight: bolder, $align: left);
   font-family: neuton, sans-serif;
   max-width: 100px; 
+  padding-left: 10px;
   margin-bottom: 0px;
 }
 
